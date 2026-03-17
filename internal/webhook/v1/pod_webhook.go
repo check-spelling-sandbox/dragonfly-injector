@@ -128,7 +128,7 @@ func (d *PodCustomDefaulter) isNamespaceInjectionEnabled(ctx context.Context, po
 
 	labels := ns.GetLabels()
 	podlog.Info(
-		"func injectNamespace pod namespace lables",
+		"func injectNamespace pod namespace labels",
 		"pod", pod.Name,
 		"labels", labels,
 	)
